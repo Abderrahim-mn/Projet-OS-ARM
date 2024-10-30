@@ -1,0 +1,47 @@
+15:02:08 **** Incremental Build of configuration Debug for project LPC55S69_OS.src ****
+make -r -j20 all 
+Building file: ../source/main.c
+Building file: ../device/target.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_LPC55S69JBD100 -DCPU_LPC55S69JBD100_cm33 -DCPU_LPC55S69JBD100_cm33_core0 -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -D__NEWLIB__ -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\drivers" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\LPC55S69\drivers" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\utilities" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\component\uart" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\component\serial_manager" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\component\lists" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\CMSIS" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\device" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\board" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\source" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\drivers" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\LPC55S69\drivers" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\utilities" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\component\uart" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\component\serial_manager" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\component\lists" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\startup" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\CMSIS" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\device" -O0 -fno-common -g3 -gdwarf-4 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -D__NEWLIB__ -fstack-usage -specs=nano.specs -MMD -MP -MF"source/main.d" -MT"source/main.o" -MT"source/main.d" -o "source/main.o" "../source/main.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_LPC55S69JBD100 -DCPU_LPC55S69JBD100_cm33 -DCPU_LPC55S69JBD100_cm33_core0 -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -D__NEWLIB__ -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\drivers" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\LPC55S69\drivers" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\utilities" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\component\uart" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\component\serial_manager" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\component\lists" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\CMSIS" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\device" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\board" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\source" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\drivers" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\LPC55S69\drivers" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\utilities" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\component\uart" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\component\serial_manager" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\component\lists" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\startup" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\CMSIS" -I"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\device" -O0 -fno-common -g3 -gdwarf-4 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../device/"= -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -D__NEWLIB__ -fstack-usage -specs=nano.specs -MMD -MP -MF"device/target.d" -MT"device/target.o" -MT"device/target.d" -o "device/target.o" "../device/target.c"
+../source/main.c: In function 'tache_uart':
+../source/main.c:482:24: warning: passing argument 2 of 'write' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  482 |         write(uart_fd, message, strlen(message));
+      |                        ^~~~~~~
+In file included from ../source/main.c:4:
+../source/oslib.h:162:25: note: expected 'void *' but argument is of type 'const char *'
+  162 | int write(int fd, void *buf, size_t len);
+      |                   ~~~~~~^~~
+../device/target.c: In function 'dev_read_ser':
+../device/target.c:306:5: warning: implicit declaration of function 'USART_ReadBlocking' [-Wimplicit-function-declaration]
+  306 |     USART_ReadBlocking(USART0, (uint8_t *)(buff + f->offset), len);
+      |     ^~~~~~~~~~~~~~~~~~
+../device/target.c: In function 'dev_write_ser':
+../device/target.c:319:5: warning: implicit declaration of function 'USART_WriteBlocking' [-Wimplicit-function-declaration]
+  319 |     USART_WriteBlocking(USART0, (uint8_t *)buf, len);
+      |     ^~~~~~~~~~~~~~~~~~~
+Finished building: ../source/main.c
+ 
+Finished building: ../device/target.c
+ 
+Building target: LPC55S69_OS.src.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\LPC55S69\mcuxpresso" -Xlinker -Map="LPC55S69_OS.src.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T LPC55S69_OS_src_Debug.ld -o "LPC55S69_OS.src.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/boot_multicore_slave.o ./startup/startup_lpc55s69_cm33_core0.o ./startup/svc.o  ./source/main.o ./source/oslib.o ./source/semihost_hardfault.o  ./kernel/kernel.o ./kernel/list.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_flexcomm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_inputmux.o ./drivers/fsl_pint.o ./drivers/fsl_reset.o ./drivers/fsl_usart.o  ./device/system_LPC55S69_cm33_core0.o ./device/target.o ./device/termio.o ./device/vfs.o  ./component/uart/fsl_adapter_usart.o  ./component/serial_manager/fsl_component_serial_manager.o ./component/serial_manager/fsl_component_serial_port_uart.o  ./component/lists/fsl_component_generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o  ./LPC55S69/drivers/fsl_power.o    -lpower_hardabi
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       19452 B       608 KB      3.12%
+            SRAM:        9132 B       256 KB      3.48%
+           SRAM4:          0 GB        16 KB      0.00%
+           SRAMX:          0 GB        32 KB      0.00%
+         USB_RAM:          0 GB        16 KB      0.00%
+Finished building target: LPC55S69_OS.src.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "LPC55S69_OS.src.axf"; # arm-none-eabi-objcopy -v -O binary "LPC55S69_OS.src.axf" "LPC55S69_OS.src.bin" ; # checksum -p LPC55S69 -d "LPC55S69_OS.src.bin";
+   text	   data	    bss	    dec	    hex	filename
+  19120	    332	   8800	  28252	   6e5c	LPC55S69_OS.src.axf
+ 
+
+15:02:09 Build Finished. 0 errors, 3 warnings. (took 593ms)
+

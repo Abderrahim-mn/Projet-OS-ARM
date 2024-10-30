@@ -1,0 +1,5 @@
+C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\device/LPC55S69_cm33_core0.h:27493:24:Chip_GetVersion	16	static
+C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\drivers/fsl_clock.h:722:20:CLOCK_EnableClock	24	static
+C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\drivers/fsl_iocon.h:255:22:IOCON_PinMuxSet	24	static
+../board/pin_mux.c:30:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:61:6:BOARD_InitPins	16	static

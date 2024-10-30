@@ -1,0 +1,6 @@
+"Task Aware Debugger for GDB" version 11.10.0 (202404041456)
+Copyright 2016-2023 NXP
+==================================
+14:36:02.181 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\Debug\.config (Le fichier spécifié est introuvable)]
+14:36:02.181 INFO: [TadModel] DSF session ID 7 has started.
+14:36:08.463 INFO: [TadModel] DSF session ID 7 has ended.

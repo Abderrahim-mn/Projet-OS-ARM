@@ -1,0 +1,3 @@
+C:\Users\mouno\Documents\MCUXpressoIDE_11.10.0_3148\workspace_os\LPC55S69_OS.src\utilities/fsl_debug_console.h:157:24:DbgConsole_Init	24	static
+../board/board.c:24:6:BOARD_InitDebugConsole	16	static
+../board/board.c:36:6:BOARD_InitDebugConsole_Core1	16	static
